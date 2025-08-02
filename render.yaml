@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: stockguardian-backend
+    env: docker
+    plan: free
+    region: oregon
+    branch: main
+    rootDir: backend
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: DB_URL
+        value: jdbc:postgresql://dpg-d28nqj8ch9ac7sa7dp8o-a.ohio-postgres.render.com:5432/stockguardian_db
+      - key: DB_USER
+        value: stockguardian_db_user
+      - key: DB_PASSWORD
+        value: nc0Il1MPZVxv6B8npFsExKyOga916tE
