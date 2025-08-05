@@ -1,3 +1,4 @@
+com\stockguardian\model\SessaoUsuario.class
 com\stockguardian\StockGuardianApplication.class
 com\stockguardian\repository\ProdutoRepository.class
 com\stockguardian\controller\AuthController.class
@@ -7,9 +8,12 @@ com\stockguardian\service\UsuarioService.class
 com\stockguardian\dto\LoginRequest.class
 com\stockguardian\util\SenhaEncoder.class
 com\stockguardian\model\Produto.class
+com\stockguardian\controller\SessaoUsuarioController.class
 com\stockguardian\repository\UsuarioRepository.class
 com\stockguardian\security\JWTUtil.class
 com\stockguardian\dto\LoginResponse.class
 com\stockguardian\security\UserDetailsImpl.class
+com\stockguardian\security\JwtAuthenticationFilter.class
+com\stockguardian\repository\SessaoUsuarioRepository.class
 com\stockguardian\controller\ProdutoController.class
 com\stockguardian\security\SecurityConfig.class
