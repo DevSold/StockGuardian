@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk-alpine
+FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
@@ -8,4 +8,4 @@ RUN ./mvnw clean package -DskipTests
 
 EXPOSE 10000
 
-CMD ["java", "-jar", "target/stockguardian-api-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/StockGuardian-1.0.0.jar"]
