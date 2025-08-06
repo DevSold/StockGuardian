@@ -12,6 +12,8 @@ com\stockguardian\controller\SessaoUsuarioController.class
 com\stockguardian\repository\UsuarioRepository.class
 com\stockguardian\security\JWTUtil.class
 com\stockguardian\dto\LoginResponse.class
+com\stockguardian\security\UserDetailsImpl.class
 com\stockguardian\security\JwtAuthenticationFilter.class
 com\stockguardian\repository\SessaoUsuarioRepository.class
+com\stockguardian\controller\ProdutoController.class
 com\stockguardian\security\SecurityConfig.class
